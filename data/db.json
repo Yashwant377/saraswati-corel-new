@@ -11,7 +11,7 @@
       "mustChangePassword": false,
       "active": true,
       "createdAt": "2026-10-15T07:51:48.392Z",
-      "lastLoginAt": "2026-10-15T10:47:27.247Z"
+      "lastLoginAt": "2026-10-18T10:15:09.710Z"
     }
   ],
   "sections": [
@@ -463,6 +463,18 @@
   "visits": [],
   "passwordResets": [],
   "auditLog": [
+    {
+      "id": "e9ac544a",
+      "at": "2026-10-18T10:15:09.710Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
+    {
+      "id": "2946c41c",
+      "at": "2026-10-18T10:14:29.733Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
     {
       "id": "de90938261d59221",
       "at": "2026-10-15T11:16:24.413Z",
