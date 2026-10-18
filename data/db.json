@@ -1,0 +1,654 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "b6bb0afc4525ceb5",
+      "name": "Super Administrator",
+      "email": "admin@amaragrove.example",
+      "username": "admin",
+      "role": "super_admin",
+      "passwordHash": "4737fff25c1477331b938c311dab6704:f873b41222a84764e6853242095f98ce0c930617223351c70f7274e2a909db70909ec82d9599bc17bf3e5703d5378d85bb6af865ac78ab2646ca2e478da87e7f",
+      "mustChangePassword": false,
+      "active": true,
+      "createdAt": "2026-10-15T07:51:48.392Z",
+      "lastLoginAt": "2026-10-15T10:47:27.247Z"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "name": "Hero",
+      "title": "",
+      "subtitle": "",
+      "icon": "Home",
+      "visible": true,
+      "background": "default",
+      "layout": "default",
+      "animations": true,
+      "order": 0,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "overview",
+      "type": "overview",
+      "name": "Project Overview",
+      "title": "A Landmark Address in CBD Belapur",
+      "subtitle": "Everything you need to know about Saraswati Coral, at a glance",
+      "icon": "Info",
+      "visible": true,
+      "background": "default",
+      "layout": "grid-4",
+      "animations": true,
+      "order": 1,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "highlights",
+      "type": "highlights",
+      "name": "Project Highlights",
+      "title": "Why Saraswati Coral Stands Apart",
+      "subtitle": "Nine reasons Navi Mumbai's finest are choosing this address",
+      "icon": "Sparkles",
+      "visible": true,
+      "background": "alt",
+      "layout": "grid-3",
+      "animations": true,
+      "order": 2,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "name": "Pricing",
+      "title": "Transparent, Indicative Pricing",
+      "subtitle": "Choose a residence that fits your life and your ambition",
+      "icon": "BadgeIndianRupee",
+      "visible": true,
+      "background": "default",
+      "layout": "grid-4",
+      "animations": true,
+      "order": 3,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "amenities",
+      "type": "amenities",
+      "name": "Amenities",
+      "title": "Amenities for Every Mood",
+      "subtitle": "Over 40 curated lifestyle, sports, wellness and family experiences",
+      "icon": "Palmtree",
+      "visible": true,
+      "background": "alt",
+      "layout": "grid-4",
+      "animations": true,
+      "order": 4,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "name": "Gallery",
+      "title": "Life at Saraswati Coral",
+      "subtitle": "A glimpse of your future home",
+      "icon": "Images",
+      "visible": true,
+      "background": "default",
+      "layout": "default",
+      "animations": true,
+      "order": 5,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "floor-plans",
+      "type": "floor-plans",
+      "name": "Floor Plans",
+      "title": "Floor Plans & Layouts",
+      "subtitle": "Efficient, Vaastu-aware layouts designed for light, lake breeze and privacy",
+      "icon": "Ruler",
+      "visible": true,
+      "background": "alt",
+      "layout": "grid-4",
+      "animations": true,
+      "order": 6,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "location",
+      "type": "location",
+      "name": "Location",
+      "title": "Well-Connected. Well-Positioned. Well-Lived.",
+      "subtitle": "Located in the well-connected and vibrant CBD Belapur, Saraswati Coral gives you effortless access to business hubs, reputed schools, hospitals, shopping centers, and transport links — bringing every convenience closer to your doorstep.",
+      "icon": "MapPinned",
+      "visible": true,
+      "background": "default",
+      "layout": "default",
+      "animations": true,
+      "order": 7,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "location-advantages",
+      "type": "location-advantages",
+      "name": "Location Advantages",
+      "title": "Minutes From Everything That Matters",
+      "subtitle": "Approximate drive times to key destinations — configure in admin",
+      "icon": "Timer",
+      "visible": true,
+      "background": "alt",
+      "layout": "grid-4",
+      "animations": true,
+      "order": 8,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "developer",
+      "type": "developer",
+      "name": "Developer Information",
+      "title": "Built by People You Can Trust",
+      "subtitle": "The Saraswati Group track record",
+      "icon": "Building2",
+      "visible": true,
+      "background": "default",
+      "layout": "default",
+      "animations": true,
+      "order": 9,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.392Z"
+    },
+    {
+      "id": "offers",
+      "type": "offers",
+      "name": "Offers",
+      "title": "Current Launch Offers",
+      "subtitle": "Exclusive benefits for founding members",
+      "icon": "Gift",
+      "visible": true,
+      "background": "alt",
+      "layout": "grid-3",
+      "animations": true,
+      "order": 10,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    },
+    {
+      "id": "brochure",
+      "type": "brochure",
+      "name": "Brochure",
+      "title": "Download the Full Brochure",
+      "subtitle": "Masterplan, specifications, payment plan and price list in one PDF",
+      "icon": "FileDown",
+      "visible": true,
+      "background": "default",
+      "layout": "centered",
+      "animations": true,
+      "order": 11,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    },
+    {
+      "id": "faqs",
+      "type": "faqs",
+      "name": "FAQs",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers before you ask",
+      "icon": "CircleHelp",
+      "visible": true,
+      "background": "alt",
+      "layout": "default",
+      "animations": true,
+      "order": 12,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    },
+    {
+      "id": "rera",
+      "type": "rera",
+      "name": "MahaRERA Details",
+      "title": "MahaRERA Registered Project",
+      "subtitle": "Verify our registration yourself — transparency you can check in seconds",
+      "icon": "BadgeCheck",
+      "visible": true,
+      "background": "default",
+      "layout": "default",
+      "animations": true,
+      "order": 13,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    },
+    {
+      "id": "enquiry",
+      "type": "enquiry",
+      "name": "Enquiry Form",
+      "title": "Get Complete Project Details",
+      "subtitle": "Our property experts will share pricing, availability and the brochure",
+      "icon": "MessageSquareText",
+      "visible": true,
+      "background": "default",
+      "layout": "default",
+      "animations": true,
+      "order": 14,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    },
+    {
+      "id": "site-visit",
+      "type": "site-visit",
+      "name": "Site Visit",
+      "title": "Experience It In Person",
+      "subtitle": "Show residence & site tours, 7 days a week",
+      "icon": "Car",
+      "visible": true,
+      "background": "dark",
+      "layout": "default",
+      "animations": true,
+      "order": 15,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "name": "Contact",
+      "title": "Talk to a Property Expert",
+      "subtitle": "We usually respond within 15 minutes during business hours",
+      "icon": "PhoneCall",
+      "visible": true,
+      "background": "alt",
+      "layout": "default",
+      "animations": true,
+      "order": 16,
+      "status": "published",
+      "data": null,
+      "draftData": null,
+      "draftMeta": null,
+      "updatedAt": "2026-10-15T07:51:48.393Z"
+    }
+  ],
+  "settings": {
+    "branding": {
+      "companyName": "Saraswati Group",
+      "brokerName": "Saraswati Coral Marketing Partners",
+      "developerName": "Saraswati Group",
+      "logoText": "SARASWATI CORAL",
+      "logoSubtext": "Premium Luxury Apartments",
+      "logoUrl": "/images/logo-emblem.png",
+      "logoLightUrl": "/images/logo-emblem.png",
+      "logoDarkUrl": "/images/logo-emblem-navy.png",
+      "mobileLogoUrl": "",
+      "faviconUrl": "/images/logo-emblem-navy.png",
+      "logoWidth": 150,
+      "logoHeight": 44,
+      "logoLink": "/"
+    },
+    "contact": {
+      "phone": "+91 8828428960",
+      "phoneDial": "+91 8828428960",
+      "whatsapp": "+91 8828428960",
+      "email": "sales@saraswaticoral.example",
+      "address": "Experience Centre, Saraswati Coral, CBD Belapur, Navi Mumbai 400614",
+      "hours": "Mon–Sun · 9:30 AM – 7:30 PM",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "youtube": "",
+        "linkedin": ""
+      }
+    },
+    "website": {
+      "title": "Saraswati Coral | Premium Luxury Apartments in CBD Belapur, Navi Mumbai",
+      "metaDescription": "Saraswati Coral — premium luxury apartments in CBD Belapur, Navi Mumbai. 2 & 3 BHK lake-facing residences from ₹1.35 Cr*. 40+ amenities, rooftop leisure deck, MahaRERA registered. Book a site visit today.",
+      "defaultImage": "/images/hero.jpg",
+      "copyright": "© 2026 Saraswati Group. All rights reserved.",
+      "ctaText": "Enquire Now",
+      "navLinks": [
+        {
+          "label": "Overview",
+          "href": "#overview"
+        },
+        {
+          "label": "Highlights",
+          "href": "#highlights"
+        },
+        {
+          "label": "Amenities",
+          "href": "#amenities"
+        },
+        {
+          "label": "Floor Plans",
+          "href": "#floor-plans"
+        },
+        {
+          "label": "Gallery",
+          "href": "#gallery"
+        },
+        {
+          "label": "Location",
+          "href": "#location"
+        },
+        {
+          "label": "FAQs",
+          "href": "#faqs"
+        },
+        {
+          "label": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "footerLinks": [
+        {
+          "label": "Privacy Policy",
+          "href": "#privacy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "#terms"
+        },
+        {
+          "label": "Disclaimer",
+          "href": "#disclaimer"
+        }
+      ]
+    },
+    "theme": {
+      "mode": "light",
+      "accent": "#1e2a47",
+      "font": "geometric",
+      "buttonStyle": "pill",
+      "cardStyle": "elevated",
+      "radius": 18,
+      "sectionSpacing": "normal",
+      "animations": true
+    },
+    "conversion": {
+      "socialProof": true,
+      "exitIntent": true,
+      "countdown": true,
+      "offerEndsAt": "2026-11-05",
+      "enquiriesToday": 27,
+      "unitsLeft": 14,
+      "socialMessages": [
+        "Rohit D. from Vashi enquired about a 3 BHK",
+        "Meera S. from Seawoods booked a site visit",
+        "Anil K. from Kharghar downloaded the brochure",
+        "Priya N. from Belapur enquired about a 2 BHK",
+        "The Sharmas from Nerul booked a weekend site visit"
+      ]
+    },
+    "maps": {
+      "address": "CBD Belapur, Navi Mumbai, Maharashtra 400614",
+      "lat": 19.0178,
+      "lng": 73.0291,
+      "directionsUrl": "https://www.google.com/maps/place/227M%2B74X+Saraswati+Coral,+1007+%26+1201,+Bacchumiya+Dhuru+Marg,+opposite+NMMC+Flyover,+Belapur+Village,+Sector+20,+CBD+Belapur,+Navi+Mumbai,+Maharashtra+400614/@19.0133624,73.0327258,30a,90y,127.19h,90.95t/data=!3m7!1e1!3m5!1sfREIUf9dfX0nFM3O7_0Xhg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-0.9539714355420159%26panoid%3DfREIUf9dfX0nFM3O7_0Xhg%26yaw%3D127.19356458582656!7i16384!8i8192!4m15!1m8!3m7!1s0x3be7c3a9340c4d4d:0x117b216de7ac002b!2s227M%2B74X+Saraswati+Coral,+1007+%26+1201,+Bacchumiya+Dhuru+Marg,+opposite+NMMC+Flyover,+Belapur+Village,+Sector+20,+CBD+Belapur,+Navi+Mumbai,+Maharashtra+400614!3b1!8m2!3d19.0132333!4d73.0328133!16s%2Fg%2F11y3m2k8ld!3m5!1s0x3be7c3a9340c4d4d:0x117b216de7ac002b!8m2!3d19.0132333!4d73.0328133!16s%2Fg%2F11y3m2k8ld?authuser=0&entry=ttu&g_ep=EgoyMDI2MTAxMi4wIKXMDSoASAFQAw%3D%3D",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra"
+    },
+    "rera": {
+      "number": "PR1330002500304",
+      "url": "https://www.maharera.maharashtra.gov.in/"
+    }
+  },
+  "leads": [
+    {
+      "id": "c5ac90f409255c03",
+      "type": "price",
+      "name": "Rahul",
+      "phone": "9973765066",
+      "email": "",
+      "configuration": "2 BHK",
+      "message": "i wants to buy that flat",
+      "source": "modal:price",
+      "status": "qualified",
+      "createdAt": "2026-10-15T10:48:45.383Z"
+    }
+  ],
+  "visits": [],
+  "passwordResets": [],
+  "auditLog": [
+    {
+      "id": "de90938261d59221",
+      "at": "2026-10-15T11:16:24.413Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_update",
+      "meta": {
+        "leadId": "c5ac90f409255c03",
+        "status": "qualified"
+      }
+    },
+    {
+      "id": "122fbddd34996ba3",
+      "at": "2026-10-15T11:16:06.636Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_update",
+      "meta": {
+        "leadId": "c5ac90f409255c03",
+        "status": "closed_lost"
+      }
+    },
+    {
+      "id": "88af0cd207871824",
+      "at": "2026-10-15T11:10:02.988Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "settings_update",
+      "meta": {
+        "groups": [
+          "branding",
+          "contact",
+          "website",
+          "theme",
+          "conversion",
+          "maps",
+          "rera"
+        ]
+      }
+    },
+    {
+      "id": "58324680ef9b3459",
+      "at": "2026-10-15T11:01:27.085Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "settings_update",
+      "meta": {
+        "groups": [
+          "branding",
+          "contact",
+          "website",
+          "theme",
+          "conversion",
+          "maps",
+          "rera"
+        ]
+      }
+    },
+    {
+      "id": "5a2f3024f97c7b61",
+      "at": "2026-10-15T10:50:47.430Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_update",
+      "meta": {
+        "leadId": "c5ac90f409255c03",
+        "status": "site_visit"
+      }
+    },
+    {
+      "id": "09a244d1007bb097",
+      "at": "2026-10-15T10:50:29.952Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_update",
+      "meta": {
+        "leadId": "c5ac90f409255c03",
+        "status": "contacted"
+      }
+    },
+    {
+      "id": "cd2d45ecc1f3705f",
+      "at": "2026-10-15T10:50:20.658Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_update",
+      "meta": {
+        "leadId": "c5ac90f409255c03",
+        "status": "qualified"
+      }
+    },
+    {
+      "id": "16ae7a595245d050",
+      "at": "2026-10-15T10:47:49.641Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_delete",
+      "meta": {
+        "leadId": "ab78a19966d885d8"
+      }
+    },
+    {
+      "id": "7ee49624a34222cd",
+      "at": "2026-10-15T10:47:46.994Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_delete",
+      "meta": {
+        "leadId": "7b99708423993059"
+      }
+    },
+    {
+      "id": "54b9adaf6cb4b652",
+      "at": "2026-10-15T10:47:44.020Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "lead_delete",
+      "meta": {
+        "leadId": "df2e7ccb7a593e46"
+      }
+    },
+    {
+      "id": "b4047c4b",
+      "at": "2026-10-15T10:47:27.248Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
+    {
+      "id": "48eeefe9",
+      "at": "2026-10-15T10:41:34.008Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
+    {
+      "id": "e236fa20",
+      "at": "2026-10-15T09:50:06.682Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
+    {
+      "id": "fa6d506d",
+      "at": "2026-10-15T09:20:51.996Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
+    {
+      "id": "cedd5efca2cdd5d2",
+      "at": "2026-10-15T09:18:36.850Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "settings_update",
+      "meta": {
+        "groups": [
+          "branding",
+          "contact",
+          "website",
+          "theme",
+          "conversion",
+          "maps",
+          "rera"
+        ]
+      }
+    },
+    {
+      "id": "60f97bd28de86a72",
+      "at": "2026-10-15T09:18:31.416Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "settings_update",
+      "meta": {
+        "groups": [
+          "branding",
+          "contact",
+          "website",
+          "theme",
+          "conversion",
+          "maps",
+          "rera"
+        ]
+      }
+    },
+    {
+      "id": "71808b99c9621fbe",
+      "at": "2026-10-15T09:16:55.841Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "change_password"
+    },
+    {
+      "id": "40bcac61",
+      "at": "2026-10-15T09:16:35.417Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    },
+    {
+      "id": "a16d23a1",
+      "at": "2026-10-15T09:16:32.827Z",
+      "userId": "b6bb0afc4525ceb5",
+      "action": "login"
+    }
+  ]
+}

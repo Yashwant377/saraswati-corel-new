@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   THEME TOKENS — all driven by admin settings (injected on <html>)
+   ============================================================ */
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --surface-2: #f4f2ed;
+  --text: #16211d;
+  --muted: #5f6f68;
+  --border: #e5e1d8;
+  --accent: #1f6f4f;
+  --accent-fg: #ffffff;
+  --accent-soft: rgba(31, 111, 79, 0.1);
+  --gold: #c99a4b;
+  --radius: 1.25rem;
+  --btn-radius: 9999px;
+  --section-space: 5.5rem;
+  --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.dark {
+  --bg: #0b1220;
+  --surface: #121b2e;
+  --surface-2: #182338;
+  --text: #eef1f7;
+  --muted: #a4aec2;
+  --border: #263248;
+  --accent-soft: rgba(140, 170, 230, 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: var(--font-display); }
+
+/* Button style variants (admin configurable) */
+[data-button="sharp"] { --btn-radius: 0.375rem; }
+[data-button="rounded"] { --btn-radius: 0.75rem; }
+[data-button="pill"] { --btn-radius: 9999px; }
+
+/* Card style variants (admin configurable) */
+[data-card="flat"] .card { box-shadow: none; border: 1px solid var(--border); }
+[data-card="outline"] .card { box-shadow: none; border: 1.5px solid var(--border); background: transparent; }
+
+/* Section spacing (admin configurable) */
+[data-spacing="compact"] { --section-space: 3.5rem; }
+[data-spacing="normal"] { --section-space: 5.5rem; }
+[data-spacing="roomy"] { --section-space: 7.5rem; }
+
+/* Animations preference */
+[data-animations="off"] .reveal { opacity: 1 !important; transform: none !important; }
+
+/* ============================================================
+   COMPONENT PRIMITIVES
+   ============================================================ */
+@layer components {
+  .section-pad {
+    padding-top: var(--section-space);
+    padding-bottom: var(--section-space);
+  }
+
+  .container-site {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-semibold transition-all duration-200 select-none
+           focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none;
+    border-radius: var(--btn-radius);
+    padding: 0.8rem 1.6rem;
+    font-size: 0.95rem;
+    line-height: 1.2;
+  }
+  .btn:focus-visible { outline-color: var(--accent); }
+  .btn-primary {
+    @apply btn text-white shadow-lg;
+    background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 72%, #000));
+    box-shadow: 0 12px 28px -10px color-mix(in srgb, var(--accent) 55%, transparent);
+  }
+  .btn-primary:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .btn-gold {
+    @apply btn text-white shadow-lg;
+    background: linear-gradient(135deg, #d9b36a, #b07f36);
+    box-shadow: 0 12px 28px -10px rgba(176, 127, 54, 0.55);
+  }
+  .btn-gold:hover { filter: brightness(1.06); transform: translateY(-1px); }
+  .btn-outline {
+    @apply btn bg-transparent;
+    border: 1.5px solid currentColor;
+  }
+  .btn-outline:hover { background: var(--accent-soft); }
+  .btn-soft {
+    @apply btn;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .btn-soft:hover { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+  .btn-sm { padding: 0.5rem 1.1rem; font-size: 0.85rem; }
+  .btn-lg { padding: 1rem 2.1rem; font-size: 1.05rem; }
+
+  .card {
+    @apply bg-[var(--surface)] shadow-soft;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+  }
+
+  .input {
+    @apply w-full px-4 py-3 text-sm transition-colors;
+    border-radius: calc(var(--btn-radius) * 0.6);
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    color: var(--text);
+  }
+  .input::placeholder { color: var(--muted); opacity: 0.7; }
+  .input:focus {
+    @apply outline-none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .input-error { border-color: #dc2626 !important; }
+
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wider text-[var(--muted)];
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold;
+    border-radius: var(--btn-radius);
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.22em];
+    color: var(--gold);
+  }
+
+  .h-display {
+    @apply font-display font-semibold tracking-tight text-[var(--text)];
+  }
+
+  .section-alt { background: var(--surface-2); }
+
+  /* Solid navbar / sticky bar surfaces — Tailwind alpha modifiers don't work on CSS vars */
+  .nav-solid {
+    background: color-mix(in srgb, var(--surface) 94%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .bar-solid {
+    background: color-mix(in srgb, var(--surface) 97%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+/* ============================================================
+   REVEAL ANIMATIONS
+   ============================================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal.reveal-visible { opacity: 1; transform: none; }
+
+/* Ken-burns style hero zoom */
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+.hero-img-anim { animation: heroZoom 18s ease-out forwards; }
+
+/* Marquee for trust strip */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 28s linear infinite; }
+
+/* Lightbox */
+.lightbox-enter { animation: lbIn 0.25s ease-out; }
+@keyframes lbIn { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+
+/* Modal */
+.modal-enter { animation: mdIn 0.28s cubic-bezier(0.22, 1, 0.36, 1); }
+@keyframes mdIn { from { opacity: 0; transform: translateY(24px) scale(0.98); } to { opacity: 1; transform: none; } }
+
+/* Sticky mobile CTA safe spacing */
+.pb-sticky { padding-bottom: 5.5rem; }
+@media (min-width: 1024px) { .pb-sticky { padding-bottom: 0; } }
+
+/* Scrollbar polish */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--muted) 40%, transparent); border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
