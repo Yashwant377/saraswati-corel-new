@@ -146,7 +146,7 @@ export default function ReraSection({ section, content, settings, defaults }: Pr
             </div>
 
             <a href={url} target="_blank" rel="noopener noreferrer" className="text-[12px] font-bold text-[var(--accent)] underline decoration-[var(--gold)] decoration-2 underline-offset-4 hover:text-[var(--gold)]">
-              www.maharera.maharashtra.gov.in
+              maharera.maharashtra.gov.in
             </a>
           </div>
         </Reveal>
