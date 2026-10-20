@@ -33,7 +33,7 @@ export const project = {
   city: "Navi Mumbai",
   startingPrice: "₹1.5 Cr*",
   reraNumber: "PR1330002500304",
-  reraUrl: "https://maharera.mahaonline.gov.in",
+  reraUrl: "maharera.maharashtra.gov.in",
   totalLand: "2.8 Acres",
   totalUnits: "280 Exclusive Residences",
   towers: "1 Signature Towers · G+27 Floors",
@@ -46,7 +46,7 @@ export const project = {
 export const brandingDefaults = {
   companyName: "Saraswati Group",
   brokerName: "Saraswati Coral Marketing Partners",
-  developerName: "Saraswati Group",
+  developerName: "Shree Ram infra pvt ltd",
   logoText: "SARASWATI CORAL",
   logoSubtext: "Premium Luxury Apartments",
   logoUrl: "/images/logo-emblem.png",
@@ -174,8 +174,8 @@ export const configurations: Configuration[] = [
     id: "3bhk",
     name: "3 BHK Coral Residence",
     config: "3 BHK Soldout",
-    carpetArea: "985 sq.ft",
-    saleableArea: "1310 sq.ft",
+    carpetArea: "885 sq.ft",
+    saleableArea: "885 sq.ft",
     price: "₹1.85 Cr*",
     beds: 3,
     baths: 3,
@@ -201,12 +201,12 @@ export const configurations: Configuration[] = [
 export const overviewFacts = [
   { icon: "MapPin", label: "Location", value: "CBD Belapur, Navi Mumbai" },
   { icon: "Expand", label: "Total Land Area", value: "2.8 Acres Private Estate" },
-  { icon: "Building2", label: "Total Units", value: "280 Residences · 2 Towers" },
+  { icon: "Building2", label: "Total Units", value: "280 Residences · 1 Towers" },
   { icon: "LayoutGrid", label: "Configurations", value: "2 & 3 BHK Luxury Homes" },
   { icon: "CalendarCheck", label: "Possession", value: "Dec 2027 Onwards" },
   { icon: "HardHat", label: "Developer", value: "Saraswati Group" },
   { icon: "ShieldCheck", label: "MahaRERA Registered", value: "PR1330002500304" },
-  { icon: "BadgeIndianRupee", label: "Starting Price", value: "₹1.35 Cr* Onwards" },
+  { icon: "BadgeIndianRupee", label: "Starting Price", value: "₹1.5 Cr* Onwards" },
 ];
 
 export const overviewText =
@@ -325,7 +325,7 @@ export const locationAdvantages = [
  * DEVELOPER
  * --------------------------------------------------------------------------*/
 export const developer = {
-  name: "Saraswati Group",
+  name: "Shree Ram infra pvt ltd",
   since: 1998,
   yearsExperience: "27+ Years",
   projectsDelivered: "30 Projects Delivered",
@@ -351,7 +351,7 @@ export const offers = [
  * --------------------------------------------------------------------------*/
 export const faqs = [
   { q: "Where exactly is Saraswati Coral located?", a: "Saraswati Coral is in CBD Belapur, Navi Mumbai — minutes from Palm Beach Marg, Belapur & Seawoods railway stations, Nexus Seawoods Mall, Apollo Hospitals and the Navi Mumbai International Airport corridor, with quick access to Atal Setu." },
-  { q: "What configurations are available?", a: "We offer 2 BHK (985 sq.ft) and 3 BHK (1310 sq.ft) lake-facing and east/west residences across two G+27 towers." },
+  { q: "What configurations are available?", a: "We offer 2 BHK (710 sq.ft) and 3 BHK (885 sq.ft) lake-facing and east/west residences across two G+27 towers." },
   { q: "What is the starting price?", a: "Residences start from ₹1.35 Cr* for a 2 BHK. Prices are indicative and subject to availability, floor rise, view and applicable charges. Request the latest price sheet from our sales desk." },
   { q: "What amenities does the project include?", a: "A rooftop leisure deck with infinity-edge pool and sky lounge, spa-sauna-jacuzzi wellness quarter, box cricket, badminton, squash, gymnasium, yoga pavilion, kids' play court and splash pad, co-working lounge and a two-level landscaped podium garden." },
   { q: "Is the project RERA registered?", a: "Yes. Saraswati Coral is registered with MahaRERA (registration number displayed above and on all marketing material). You can verify it on the official MahaRERA portal." },
