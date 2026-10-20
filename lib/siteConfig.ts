@@ -352,7 +352,7 @@ export const offers = [
 export const faqs = [
   { q: "Where exactly is Saraswati Coral located?", a: "Saraswati Coral is in CBD Belapur, Navi Mumbai — minutes from Palm Beach Marg, Belapur & Seawoods railway stations, Nexus Seawoods Mall, Apollo Hospitals and the Navi Mumbai International Airport corridor, with quick access to Atal Setu." },
   { q: "What configurations are available?", a: "We offer 2 BHK (710 sq.ft) and 3 BHK (885 sq.ft) lake-facing and east/west residences across two G+27 towers." },
-  { q: "What is the starting price?", a: "Residences start from ₹1.35 Cr* for a 2 BHK. Prices are indicative and subject to availability, floor rise, view and applicable charges. Request the latest price sheet from our sales desk." },
+  { q: "What is the starting price?", a: "Residences start from ₹1.5 Cr* for a 2 BHK. Prices are indicative and subject to availability, floor rise, view and applicable charges. Request the latest price sheet from our sales desk." },
   { q: "What amenities does the project include?", a: "A rooftop leisure deck with infinity-edge pool and sky lounge, spa-sauna-jacuzzi wellness quarter, box cricket, badminton, squash, gymnasium, yoga pavilion, kids' play court and splash pad, co-working lounge and a two-level landscaped podium garden." },
   { q: "Is the project RERA registered?", a: "Yes. Saraswati Coral is registered with MahaRERA (registration number displayed above and on all marketing material). You can verify it on the official MahaRERA portal." },
   { q: "When is possession expected?", a: "Phase 1 possession is scheduled from December 2027, as per the MahaRERA-declared timeline, with construction-linked payment milestones." },
