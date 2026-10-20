@@ -95,7 +95,7 @@ export const reraDefaults = {
 export const websiteDefaults = {
   title: "Saraswati Coral | Premium Luxury Apartments in CBD Belapur, Navi Mumbai",
   metaDescription:
-    "Saraswati Coral — premium luxury apartments in CBD Belapur, Navi Mumbai. 2 & 3 BHK lake-facing residences from ₹1.35 Cr*. 40+ amenities, rooftop leisure deck, MahaRERA registered. Book a site visit today.",
+    "Saraswati Coral — premium luxury apartments in CBD Belapur, Navi Mumbai. 2 & 3 BHK lake-facing residences from ₹1.5 Cr*. 40+ amenities, rooftop leisure deck, MahaRERA registered. Book a site visit today.",
   defaultImage: "/images/hero.jpg",
   copyright: `© ${new Date().getFullYear()} Saraswati Group. All rights reserved.`,
   ctaText: "Enquire Now",
@@ -173,7 +173,7 @@ export const configurations: Configuration[] = [
   {
     id: "3bhk",
     name: "3 BHK Coral Residence",
-    config: "3 BHK Soldout",
+    config: "3 BHK",
     carpetArea: "885 sq.ft",
     saleableArea: "885 sq.ft",
     price: "₹1.85 Cr*",
@@ -210,7 +210,7 @@ export const overviewFacts = [
 ];
 
 export const overviewText =
-  "Saraswati Coral is a landmark of understated luxury in CBD Belapur — two sculpted towers rising over a resort-style podium, with lake-breezed decks, a rooftop leisure level and interiors finished to a boutique standard. Positioned minutes from Palm Beach Marg, Belapur & Seawoods stations and the Navi Mumbai International Airport corridor, it places the best of the city at your doorstep while keeping the world at a graceful distance.";
+  "Saraswati Coral is a landmark of understated luxury in CBD Belapur — one sculpted towers rising over a resort-style podium, with lake-breezed decks, a rooftop leisure level and interiors finished to a boutique standard. Positioned minutes from Palm Beach Marg, Belapur & Seawoods stations and the Navi Mumbai International Airport corridor, it places the best of the city at your doorstep while keeping the world at a graceful distance.";
 
 /* ----------------------------------------------------------------------------
  * HIGHLIGHTS
@@ -218,7 +218,7 @@ export const overviewText =
 export const highlights = [
   { icon: "Mountain", title: "2.8-Acre Private Estate", desc: "A gated luxury enclave in the heart of CBD Belapur with 65% open space." },
   { icon: "Waves", title: "Lake-View Residences", desc: "Premium floors open to the lake and waterfront — sunrise decks and sunset lounges." },
-  { icon: "Gem", title: "Boutique Residences", desc: "Only 280 homes across 2 towers — privacy, light and low density." },
+  { icon: "Gem", title: "Boutique Residences", desc: "Only 280 homes across 1 towers — privacy, light and low density." },
   { icon: "PartyPopper", title: "Rooftop Leisure Deck", desc: "Infinity-edge pool, sky lounge and open-air cinema on the rooftop level." },
   { icon: "Trophy", title: "Sports & Fitness", desc: "Jogging track, gym area, box cricket, badminton, squash and table tennis." },
   { icon: "Flower2", title: "Wellness Quarter", desc: "Yoga & meditation pavilion, walking track, spa, sauna, jacuzzi and a reflexology walk." },
@@ -351,7 +351,7 @@ export const offers = [
  * --------------------------------------------------------------------------*/
 export const faqs = [
   { q: "Where exactly is Saraswati Coral located?", a: "Saraswati Coral is in CBD Belapur, Navi Mumbai — minutes from Palm Beach Marg, Belapur & Seawoods railway stations, Nexus Seawoods Mall, Apollo Hospitals and the Navi Mumbai International Airport corridor, with quick access to Atal Setu." },
-  { q: "What configurations are available?", a: "We offer 2 BHK (710 sq.ft) and 3 BHK (885 sq.ft) lake-facing and east/west residences across two G+27 towers." },
+  { q: "What configurations are available?", a: "We offer 2 BHK (710 sq.ft) and 3 BHK (885 sq.ft) lake-facing and east/west residences across one G+27 towers." },
   { q: "What is the starting price?", a: "Residences start from ₹1.5 Cr* for a 2 BHK. Prices are indicative and subject to availability, floor rise, view and applicable charges. Request the latest price sheet from our sales desk." },
   { q: "What amenities does the project include?", a: "A rooftop leisure deck with infinity-edge pool and sky lounge, spa-sauna-jacuzzi wellness quarter, box cricket, badminton, squash, gymnasium, yoga pavilion, kids' play court and splash pad, co-working lounge and a two-level landscaped podium garden." },
   { q: "Is the project RERA registered?", a: "Yes. Saraswati Coral is registered with MahaRERA (registration number displayed above and on all marketing material). You can verify it on the official MahaRERA portal." },
@@ -484,7 +484,7 @@ export const customSectionTemplates: Record<string, { name: string; title: strin
     name: "Project Comparison", title: "How We Compare", subtitle: "Saraswati Coral vs typical projects in the micro-market", icon: "Scale",
     blocks: [{ kind: "table", columns: ["Parameter", "Saraswati Coral", "Typical Project"], rows: [
       ["Open space", "65% of 2.8 acres", "40–55%"],
-      ["Density", "280 homes / 2 towers", "Higher density"],
+      ["Density", "280 homes / 1 towers", "Higher density"],
       ["Leisure", "Rooftop infinity pool + sky lounge", "Podium pool only"],
       ["Payment plan", "10:40:50 construction-linked", "Possession-heavy"],
       ["RERA", "MahaRERA registered", "Verify individually"],
